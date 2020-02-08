@@ -1,6 +1,6 @@
 # kmizu
 
-A programming language executed by me
+A programming language executed by me.  It is experimentation about a programming language which interpreter is a human (expecially myself).
 
 ## Concrete Syntax
 
