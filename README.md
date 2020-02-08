@@ -4,7 +4,7 @@ A programming language executed by me
 
 ## Concrete Syntax
 
-Omitted.  Parsing by myself
+Omitted.  Parsed by myself
 
 ## Abstract Syntax
 
