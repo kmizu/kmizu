@@ -8,6 +8,7 @@ Omitted.  Parsed by myself
 
 ## Abstract Syntax
 
+```
 // I is an idenfitier
 
 T = Int
@@ -28,10 +29,11 @@ E = add E E
 
 L = (integer literal)
   | (boolean literal)
+```
   
 ## Typing Rule
 
-Omitted
+Omitted.  Typed by myself
 
 ## Operational Semantics
 
