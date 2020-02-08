@@ -25,6 +25,10 @@ E = add E E
   | subtract E E
   | multiply E E
   | divide E E
+  | lte E E
+  | lt E E
+  | gte E E
+  | gt E E
   | L
 
 L = (integer literal)
@@ -66,6 +70,14 @@ def eval(x, env) = {
       eval(x, env) * eval(y, env)
     case tree.divide(x, y) =>
       eval(x, env) * eval(y, env)
+    case tree.lt(x, y) =>
+       eval(x, env) < eval(y, env)
+    case tree.lte(x, y) =>
+       eval(x, env) <= eval(y, env)
+     case tree.gt(x, y) =>
+       eval(x, env) > eval(y, env)
+     case tree.gte(x, y) =>
+       eval(x, env) >= eval(y, env)       
     case tree.integer(v) =>
       v
     case tree.boolean(v) =>
